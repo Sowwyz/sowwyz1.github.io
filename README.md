@@ -1,4 +1,4 @@
-**The site will look like this ; **
+The site will look like this ; 
 
 
 ![1](https://user-images.githubusercontent.com/88189918/220011935-f378f079-d8e5-4c82-9407-82303e936aa4.png)
