@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BİG CHUNGUS | Members</title>
+
+	<!-- * META * -->
+
+	<!-- * LINKS * -->
+	<link rel="stylesheet" href="members.css">
+	<link rel="icon" href="Avatars/Sowwyz.jpg">
+
+	<!-- * JAVA SCRIPT * -->
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+	<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+	
+	<!-- * OPEN GRAPH PROTOCOL * -->
+	<meta name="twitter:card" content="summary">
+	<meta property="theme-color" content="#FF4654">
+	<meta name="og:description" content="Our authorized team that protects and monitors our server environment.">
+	<meta name="og:type" content="website">
+	<meta name="og:title" content="BİG CHUNGUS">
+	<meta name="og:image" content="Avatars/Sowwyz.jpg">
+	<meta name="og:image:width" content="200">
+	<meta name="og:image:height" content="200">
+</head>
+<body>
+
+
+<!-- * PRELOADER * -->
+
+  	<div class="loader-wrapper">
+      	<span class="loader"><span class="loader-inner"></span></span>
+  	</div>  
+
+
+<!-- * BANNER * -->
+
+	<section class="banner" id="home">
+    <div class="overlay"></div>		
+		<header>
+			<a href="../index.html" class="logo"><img src="Avatars/Sowwyz.jpg"></a>
+			<div id="toggle" onclick="toggle()"></div>
+		</header>
+
+
+<!-- * MEMBERS * -->
+
+	<div class="team">
+		<div class="inner">
+			<h1>MEET OUR TEAM</h1>
+
+			<div class="members">
+				<div class="member">
+					<img src="Avatars/Sowwyz.jpg">
+					<div class="name">Sowwyz</div>
+					<div class="description admin" style="color: var(--admin);"><i class="fas fa-chess-king"></i> BİG CHUNGUS</div>
+				</div>
+
+				<div class="member">
+					<img src="Avatars/noides.png">
+					<div class="name">Noides</div>
+					<div class="description admin" style="color: var(--admin);"><i class="fas fa-chess-king"></i> BİG CHUNGUS</div>
+				</div>
+				
+				<div class="member">
+					<img src="Avatars/noides.png">
+					<div class="name">#</div>
+					<div class="description admin" style="color: var(--admin);"><i class="fas fa-chess-king"></i> BİG CHUNGUS</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	</section>
+
+
+<!-- * NAV * -->
+
+	<div id="navigation">
+		<ul>
+			<li><a href="../index.html">MENU</a></li>
+			<li><a href="../index.html">ABOUT US</a></li>
+			<li><a href="#" class="colored">TEAM</a></li>
+			<li><a href="https://discord.gg/Sowwyz" target="_blank">Discord</a></li>
+		</ul>
+	</div>
+
+<!-- * FOOTER * -->
+
+    <div class="footer">
+    	<h2>BİG CHUNGUS</h2>
+    	<div class="footerLinks">
+    		<a href="../index.html" class="colored">MENU</a>
+    		<a href="#">TEAM</a>
+    		<a href="https://discord.com/invite/Sowwyz" target="_blank">Discord</a>
+    	</div>
+    	<p class="copyright">
+    		&copy; All Rights Reserved. <span>Sowwyz ©</span>
+    	</p>
+    </div>
+
+
+<!-- * JS * -->
+
+	<script>
+	// TOGGLE EFFECT
+		function toggle() {
+			var home = document.getElementById('home');
+			var nav = document.getElementById('navigation');
+			home.classList.toggle('active');
+			nav.classList.toggle('active');
+		}
+	</script>
+  	<script>
+  	// PRELOADER EFFECT
+    	$(window).on("load",function(){
+     	$(".loader-wrapper").fadeOut("slow");
+    	});
+  	</script>	
+</body>
+</html>
